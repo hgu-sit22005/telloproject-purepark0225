@@ -1,0 +1,3 @@
+/data/telloproject-purepark0225/build/CMakeFiles/rebuild_cache.dir
+/data/telloproject-purepark0225/build/CMakeFiles/TelloPro.dir
+/data/telloproject-purepark0225/build/CMakeFiles/edit_cache.dir
