@@ -4,14 +4,14 @@
 
 Left::Left()
 {
-	command = new char[strlen("Left 20")+1];
-	strcpy(command, "Left 20");
+	command = new char[strlen("left 20")+1];
+	strcpy(command, "left 20");
 }
 
 Left::Left(int _value)
 {
 	std::stringstream sstream;
-	sstream << "Left " << _value;
+	sstream << "left " << _value;
 
 	command = new char[strlen(sstream.str().c_str())+1];
 	strcpy(command, sstream.str().c_str());
@@ -19,5 +19,5 @@ Left::Left(int _value)
 
 double Left::get_delay()
 { 
-	return 5; 
+	return 2; 
 }

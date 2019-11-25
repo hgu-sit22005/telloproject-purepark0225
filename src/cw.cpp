@@ -4,14 +4,14 @@
 
 Cw::Cw()
 {
-	command = new char[strlen("Cw 20")+1];
-	strcpy(command, "Cw 20");
+	command = new char[strlen("cw 20")+1];
+	strcpy(command, "cw 20");
 }
 
 Cw::Cw(int _value)
 {
 	std::stringstream sstream;
-	sstream << "Cw " << _value;
+	sstream << "cw " << _value;
 
 	command = new char[strlen(sstream.str().c_str())+1];
 	strcpy(command, sstream.str().c_str());
@@ -19,5 +19,5 @@ Cw::Cw(int _value)
 
 double Cw::get_delay()
 { 
-	return 5; 
+	return 2; 
 }

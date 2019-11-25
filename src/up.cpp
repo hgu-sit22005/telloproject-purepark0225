@@ -19,5 +19,5 @@ Up::Up(int _value)
 
 double Up::get_delay()
 { 
-	return 5; 
+	return 2; 
 }

@@ -4,14 +4,14 @@
 
 Forward::Forward()
 {
-	command = new char[strlen("Forward 20")+1];
-	strcpy(command, "Forward 20");
+	command = new char[strlen("forward 20")+1];
+	strcpy(command, "forward 20");
 }
 
 Forward::Forward(int _value)
 {
 	std::stringstream sstream;
-	sstream << "Forward " << _value;
+	sstream << "forward " << _value;
 
 	command = new char[strlen(sstream.str().c_str())+1];
 	strcpy(command, sstream.str().c_str());
@@ -19,5 +19,5 @@ Forward::Forward(int _value)
 
 double Forward::get_delay()
 { 
-	return 5; 
+	return 2; 
 }

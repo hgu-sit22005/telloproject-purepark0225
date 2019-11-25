@@ -34,5 +34,5 @@ Flip::Flip(int _value)
 
 double Flip::get_delay()
 { 
-	return 5; 
+	return 2; 
 }

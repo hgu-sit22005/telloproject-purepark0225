@@ -4,14 +4,14 @@
 
 Back::Back()
 {
-	command = new char[strlen("Back 20")+1];
-	strcpy(command, "Back 20");
+	command = new char[strlen("back 20")+1];
+	strcpy(command, "back 20");
 }
 
 Back::Back(int _value)
 {
 	std::stringstream sstream;
-	sstream << "Back " << _value;
+	sstream << "back " << _value;
 
 	command = new char[strlen(sstream.str().c_str())+1];
 	strcpy(command, sstream.str().c_str());
@@ -19,5 +19,5 @@ Back::Back(int _value)
 
 double Back::get_delay()
 { 
-	return 5; 
+	return 2; 
 }
